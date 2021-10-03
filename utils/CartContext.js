@@ -8,7 +8,7 @@ export const CartProvider = (props) => {
     Cookies.get('cartItems') ? JSON.parse(Cookies.get('cartItems')) : []
   ); //initial state
   const [loggedIn, setLoggedIn] = useState(
-    Cookies.get('userAuthToken') ? JSON.parse(Cookies.get('userAuthToken')) : []
+    Cookies.get('userAuthToken') ? JSON.parse(Cookies.get('userAuthToken')) : ''
   );
 
   React.useEffect(() => {

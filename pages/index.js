@@ -36,7 +36,6 @@ function Home(props) {
       <h2>Products</h2>
       <div className="row">
         {data.map((product) => (
-          // <Product key={product.id} product={product} onAdd={onAdd}></Product>
           <div>
             <img
               className="small"

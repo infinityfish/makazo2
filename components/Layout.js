@@ -1,16 +1,17 @@
 import Head from 'next/head';
-import NextLink from 'next/link';
 
 import Navbar from './navbar';
-import Footer from './footer';
 
 function Layout({ children }) {
   return (
     <div>
       <Head></Head>
       <Navbar />
+
       <main>{children}</main>
-      <Footer />
+
+      {/* Footer to come here */}
+      <div>Makazo 2021-2022</div>
     </div>
   );
 }

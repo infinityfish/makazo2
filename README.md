@@ -1,12 +1,12 @@
 npx create-next-app
 npm run dev
 
-npm install @material-ui/core
+npm install @mui/material
 
 in index.js empty return
 
 #create Layout.js
-type rfc
+type rfce and pick \_rfce
 create <Head> and
 import Head from 'next/head'
 title in Head
@@ -27,6 +27,7 @@ ES7 React/Redux/GraphQL/React-Native snippets
 ESLint
 JavaScript (ES6) code snippets
 Prettier - Code formatter
+
 vscode-styled-components
 Tabnine - Ai (if you like)
 
